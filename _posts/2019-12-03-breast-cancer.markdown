@@ -39,11 +39,9 @@ For our society, breast cancer became a severe problem causing many deaths so  e
   * ***Age*** of patient at time of operation (numerical)
   * ***year*** of operation (year-1900, numerical)
   * number of positive auxiliary ***nodes*** detected (numerical)
-###output
-  * survival status (class attribute)
+  * survival status ***class*** attribute
 ---
 ## visualization & EDA
-   we got 306 examples
   ![Markdowm Image][3]
   <figcaption class="caption">Visualization</figcaption>
   ![Markdowm Image][1]
@@ -56,8 +54,9 @@ For our society, breast cancer became a severe problem causing many deaths so  e
   <figcaption class="caption">Visualization</figcaption> 
 ---
 
-##Features
-###Age
+## Features
+
+### Age
    *integar
    *no misisng data
    *no zeros
@@ -68,7 +67,7 @@ For our society, breast cancer became a severe problem causing many deaths so  e
    * max = 12.37
 
 ---	 
-###Nodes
+### Nodes
    * integar
    * no misisng data
    * 136 zeros - p_zeros= 44.44
@@ -78,7 +77,7 @@ For our society, breast cancer became a severe problem causing many deaths so  e
    * min = 0
    * max = 52
 ---
-###Year
+### Year
    * integar
    * no misisng data
    * no zeros
@@ -88,7 +87,7 @@ For our society, breast cancer became a severe problem causing many deaths so  e
    * min = 58
    * max = 69
 ---	 
-###output class
+### output class
    * 2 classes
    * 0 represent who survived 5 years after the operation (225 example)
    * 1 represent who died in 5 years after the operation (81 examples)
@@ -97,11 +96,11 @@ For our society, breast cancer became a severe problem causing many deaths so  e
 	 
 ---
 
-##Preprocessing
+## Preprocessing
  *corrilation matrix
 ![Markdowm Image][6]
  <figcaption class="caption">Visualization</figcaption>
-####we notice that feature of year of operation has zero correlation with our output class and high P_value
+#### we notice that feature of year of operation has zero correlation with our output class and high P_value
  *Bias Vs Variance
 ![Markdowm Image][7]
   <figcaption class="caption">Visualization</figcaption>
@@ -121,8 +120,8 @@ we are going to use 5 models:
 
 ---
 
-##Models
- 1. ###Logistic Regression
+## Models
+ 1. ### Logistic Regression
   * simple model
     ![Markdowm Image][8]
 	<figcaption class="caption">Visualization</figcaption>
@@ -139,7 +138,7 @@ we are going to use 5 models:
     3. specifity = 
 	4. f =
 ---		 
- 2. ###Naive Bayes
+ 2. ### Naive Bayes
     ![Markdowm Image][10]
     <figcaption class="caption">Visualization</figcaption>
     1. accuarcy =
@@ -147,7 +146,7 @@ we are going to use 5 models:
 	3. specifity = 
 	4. f =
 ---		 
- 3. ###Knn
+ 3. ### Knn
     ![Markdowm Image][11]
 	<figcaption class="caption">Visualization</figcaption>
 	1. accuarcy =
