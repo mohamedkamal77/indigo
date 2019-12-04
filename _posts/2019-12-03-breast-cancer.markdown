@@ -23,11 +23,6 @@ I studied a biostatistics course within my third year in the college,
  I found later that ML track is very interisting I enjoyed this experience alot.
 
 
-
-{% highlight html %}
-This note **demonstrates** some of what [Markdown][some/link] is *capable of doing*.
-{% endhighlight %}
-
 ---
 
 ## Purpose
@@ -40,10 +35,10 @@ For our society, breast cancer became a severe problem causing many deaths so  e
 
 ---
 ## Data 
-### features 
-    * ***Age*** of patient at time of operation (numerical)
-	* ***year*** of operation (year-1900, numerical)
-	* number of positive auxiliary ***nodes*** detected (numerical)
+###features 
+  * ***Age*** of patient at time of operation (numerical)
+  * ***year*** of operation (year-1900, numerical)
+  * number of positive auxiliary ***nodes*** detected (numerical)
   # output
     * survival status (class attribute)
 ---
@@ -167,6 +162,7 @@ we are going to use 5 models:
     2. sensitivity =
 	3. specifity = 
 	4. F =
+	
 ---		 
 ## summary
 
