@@ -50,12 +50,18 @@ For our society, breast cancer became a severe problem causing many deaths so  e
 ## visualization & EDA
    we got 306 examples
   ![Markdowm Image][3]
+  <figcaption class="caption">Visualization</figcaption>
   ![Markdowm Image][1]
+  <figcaption class="caption">Visualization</figcaption>
   ![Markdowm Image][2]
+  <figcaption class="caption">Visualization</figcaption>
   ![Markdowm Image][4]
+  <figcaption class="caption">Visualization</figcaption>
   ![Markdowm Image][5]
+  <figcaption class="caption">Visualization</figcaption> 
+---
 ###features
-   1.#Age
+   1. #Age
      * integar
      * no misisng data
 	 * no zeros
@@ -64,7 +70,8 @@ For our society, breast cancer became a severe problem causing many deaths so  e
 	 * sd = 12.37
 	 * min = 30
 	 * max = 12.37
-   2.#Nodes
+---	 
+   2. #Nodes
      * integar
      * no misisng data
 	 * 136 zeros - p_zeros= 44.44
@@ -73,7 +80,8 @@ For our society, breast cancer became a severe problem causing many deaths so  e
 	 * sd = 6.03
 	 * min = 0
 	 * max = 52
-   3.#Year
+---
+   3. #Year
      * integar
      * no misisng data
 	 * no zeros
@@ -82,6 +90,7 @@ For our society, breast cancer became a severe problem causing many deaths so  e
 	 * sd = 3.738
 	 * min = 58
 	 * max = 69
+---	 
 ### output class
      * 2 classes
 	 * 0 represent who survived 5 years after the operation (225 example)
@@ -94,9 +103,11 @@ For our society, breast cancer became a severe problem causing many deaths so  e
 ##Preprocessing
  *corrilation matrix
 ![Markdowm Image][6]
+ <figcaption class="caption">Visualization</figcaption>
 ####we notice that feature of year of operation has zero correlation with our output class and high P_value
  *Bias Vs Variance
 ![Markdowm Image][7]
+  <figcaption class="caption">Visualization</figcaption>
  *High bias no normalization
  *No imputation ; no missing data
  *feature scaling : We are going to use standarization  
@@ -114,37 +125,47 @@ we are going to use 5 models:
 ---
 
 ##Models
- 1. ###Logistic Regression
-      *simple model
+    ###Logistic Regression
+      * simple model
       ![Markdowm Image][8]
+	  <figcaption class="caption">Visualization</figcaption>
          1. accuarcy =
          2. sensitivity =
 	     3. specifity = 
 	     4. F =
+---		 
       *Polynomial_featured model
       ![Markdowm Image][9]
+	  <figcaption class="caption">Visualization</figcaption>
          1. accuarcy =
          2. sensitivity =
 	     3. specifity = 
 	     4. F =
- 2. ###Naive Bayes
+---		 
+    ###Naive Bayes
       ![Markdowm Image][10]
+	  <figcaption class="caption">Visualization</figcaption>
 		 1. accuarcy =
          2. sensitivity =
 	     3. specifity = 
 	     4. F =
+---		 
  3. ###Knn
       ![Markdowm Image][11]
+	  <figcaption class="caption">Visualization</figcaption>
 	     1. accuarcy =
          2. sensitivity =
 	     3. specifity = 
 	     4. F =
+---		 
  4. ### Kernel SVM
       ![Markdowm Image][12]
+	  <figcaption class="caption">Visualization</figcaption>
 	     1. accuarcy =
          2. sensitivity =
 	     3. specifity = 
 	     4. F =
+---		 
 ## summary
 
 A horizontal rule is a line that goes across the middle of the page.
