@@ -186,4 +186,4 @@ It's sometimes handy for breaking things up.
 [9]: https://mohamedkamal77.github.io/assets/images/FINAL_LOGISTIC.jpg
 [10]: https://mohamedkamal77.github.io/assets/images/NB.jpg
 [11]: https://mohamedkamal77.github.io/assets/images/KNN.jpg
-[12]: https://mohamedkamal77.github.io/assets/images/Kernel.jpg
+[12]: https://mohamedkamal77.github.io/assets/images/KERNEL.jpg
