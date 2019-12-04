@@ -1,7 +1,7 @@
 ---
-title: "Markdown Common Elements"
+title: "Breast Cancer Classification with ML
 layout: post
-date: 2016-02-24 22:44
+date: 2019-12-3 15:44
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
@@ -13,11 +13,16 @@ author: johndoe
 description: Markdown summary with different options
 ---
 
-## Basic formatting
+## Introduction
 
-This note **demonstrates** some of what [Markdown][1] is *capable of doing*.
+I studied a biostatistics course within my third year in the college,
+ including the **probabilitiy** concept and I have to apply what I studied;
+ so we had to choose a topic and represent a **Machine Learning** model.
+ That was my first experience with ML, I and my team have to read about 
+ different ML algorithms to apply it on our set of data.
+ I found later that ML track is very interisting I enjoyed this experience alot.
 
-And that's how to do it.
+
 
 {% highlight html %}
 This note **demonstrates** some of what [Markdown][some/link] is *capable of doing*.
@@ -25,86 +30,122 @@ This note **demonstrates** some of what [Markdown][some/link] is *capable of doi
 
 ---
 
-## Headings
+## Purpose
 
-There are six levels of headings. They correspond with the six levels of HTML headings. You've probably noticed them already in the page. Each level down uses one more hash character. But we are using just 4 of them.
+For our society, breast cancer became a severe problem causing many deaths so  expecting the survival status of patients who will undertake breast cancer surgery is highly vital,
+ as it speciﬁes whether conducting a surgery is the best solution for the patient or not. 
+ To achieve an acurate prediction , we have to do alot of work in our data to represent the best model,
+ We would like to explain the various data analysis operation that we would do on this data set and how to conclude or predict 
+ survival status of patients who undergone this surgery.
 
-# Headings can be small
+---
+## Data 
+### features 
+    * ***Age*** of patient at time of operation (numerical)
+	* ***year*** of operation (year-1900, numerical)
+	* number of positive auxiliary ***nodes*** detected (numerical)
+  # output
+    * survival status (class attribute)
+---
+## visualization & EDA
+   we got 306 examples
+  ![Markdowm Image][3]
+  ![Markdowm Image][1]
+  ![Markdowm Image][2]
+  ![Markdowm Image][4]
+  ![Markdowm Image][5]
+###features
+   1.#Age
+     * integar
+     * no misisng data
+	 * no zeros
+	 * 49  unique values
+	 * mean = 52.46
+	 * sd = 12.37
+	 * min = 30
+	 * max = 12.37
+   2.#Nodes
+     * integar
+     * no misisng data
+	 * 136 zeros - p_zeros= 44.44
+	 * 31 unique values
+	 * mean = 4.026
+	 * sd = 6.03
+	 * min = 0
+	 * max = 52
+   3.#Year
+     * integar
+     * no misisng data
+	 * no zeros
+	 * 12 unique values
+	 * mean = 62.85
+	 * sd = 3.738
+	 * min = 58
+	 * max = 69
+### output class
+     * 2 classes
+	 * 0 represent who survived 5 years after the operation (225 example)
+	 * 1 represent who died in 5 years after the operation (81 examples)
+	 * unbalanced
+	 
+	 
+---
 
-## Headings can be small
+##Preprocessing
+ *corrilation matrix
+![Markdowm Image][6]
+####we notice that feature of year of operation has zero correlation with our output class and high P_value
+ *Bias Vs Variance
+![Markdowm Image][7]
+ *High bias no normalization
+ *No imputation ; no missing data
+ *feature scaling : We are going to use standarization  
+ *feature selecting : year feature does not have high impact so we will not use it
 
-### Headings can be small
-
-#### Headings can be small
-
-{% highlight raw %}
-# Heading
-## Heading
-### Heading
-#### Heading
-{% endhighlight %}
+---
+## Methodology
+we are going to use 5 models:
+1. Logistic regression
+2. Knn
+3. Naive Bayes
+4. Decision tree
+5. Kernal SVM
 
 ---
 
-## Lists
-
-### Ordered list
-
-1. Item 1
-2. A second item
-3. Number 3
-
-{% highlight raw %}
-1. Item 1
-2. A second item
-3. Number 3
-{% endhighlight %}
-
-### Unordered list
-
-* An item
-* Another item
-* Yet another item
-* And there's more...
-
-{% highlight raw %}
-* An item
-* Another item
-* Yet another item
-* And there's more...
-{% endhighlight %}
-
----
-
-## Paragraph modifiers
-
-### Quote
-
-> Here is a quote. What this is should be self explanatory. Quotes are automatically indented when they are used.
-
-{% highlight raw %}
-> Here is a quote. What this is should be self explanatory.
-{% endhighlight raw %}
-
----
-
-## URLs
-
-URLs can be made in a handful of ways:
-
-* A named link to [Mark It Down][3].
-* Another named link to [Mark It Down](http://markitdown.net/)
-* Sometimes you just want a URL like <http://markitdown.net/>.
-
-{% highlight raw %}
-* A named link to [MarkItDown][3].
-* Another named link to [MarkItDown](http://markitdown.net/)
-* Sometimes you just want a URL like <http://markitdown.net/>.
-{% endhighlight %}
-
----
-
-## Horizontal rule
+##Models
+ 1. ###Logistic Regression
+      *simple model
+      ![Markdowm Image][8]
+         1. accuarcy =
+         2. sensitivity =
+	     3. specifity = 
+	     4. F =
+      *Polynomial_featured model
+      ![Markdowm Image][9]
+         1. accuarcy =
+         2. sensitivity =
+	     3. specifity = 
+	     4. F =
+ 2. ###Naive Bayes
+      ![Markdowm Image][10]
+		 1. accuarcy =
+         2. sensitivity =
+	     3. specifity = 
+	     4. F =
+ 3. ###Knn
+      ![Markdowm Image][11]
+	     1. accuarcy =
+         2. sensitivity =
+	     3. specifity = 
+	     4. F =
+ 4. ### Kernel SVM
+      ![Markdowm Image][12]
+	     1. accuarcy =
+         2. sensitivity =
+	     3. specifity = 
+	     4. F =
+## summary
 
 A horizontal rule is a line that goes across the middle of the page.
 It's sometimes handy for breaking things up.
@@ -115,90 +156,19 @@ It's sometimes handy for breaking things up.
 
 ---
 
-## Images
 
-Markdown can also contain images. I'll need to add something here sometime.
 
-{% highlight raw %}
-![Markdowm Image][/image/url]
-{% endhighlight %}
 
-![Markdowm Image][6]
 
-*Figure Caption*?
-
-{% highlight raw %}
-![Markdowm Image][/image/url]
-<figcaption class="caption">Photo by John Doe</figcaption>
-{% endhighlight %}
-
-![Markdowm Image][6]
-<figcaption class="caption">Photo by John Doe</figcaption>
-
-*Bigger Images*?
-
-{% highlight raw %}
-![Markdowm Image][/image/url]{: class="bigger-image" }
-{% endhighlight %}
-
-![Markdowm Image][6]{: class="bigger-image" }
-
----
-
-## Code
-
-A HTML Example:
-
-{% highlight html %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Just a test</h1>
-</body>
-</html>
-{% endhighlight %}
-
-A CSS Example:
-
-{% highlight css %}
-pre {
-    padding: 10px;
-    font-size: .8em;
-    white-space: pre;
-}
-
-pre, table {
-    width: 100%;
-}
-
-code, pre, tt {
-    font-family: Monaco, Consolas, Inconsolata, monospace, sans-serif;
-    background: rgba(0,0,0,.05);
-}
-{% endhighlight %}
-
-A JS Example:
-
-{% highlight js %}
-// Sticky Header
-$(window).scroll(function() {
-
-    if ($(window).scrollTop() > 900 && !$("body").hasClass('show-menu')) {
-        $('#hamburguer__open').fadeOut('fast');
-    } else if (!$("body").hasClass('show-menu')) {
-        $('#hamburguer__open').fadeIn('fast');
-    }
-
-});
-{% endhighlight %}
-
-[1]: http://daringfireball.net/projects/markdown/
-[2]: http://www.fileformat.info/info/unicode/char/2163/index.htm
-[3]: http://www.markitdown.net/
-[4]: http://daringfireball.net/projects/markdown/basics
-[5]: http://daringfireball.net/projects/markdown/syntax
-[6]: http://kune.fr/wp-content/uploads/2013/10/ghost-blog.jpg
+[1]: https://mohamedkamal77.github.io/assets/image/EDA_FREQ.png
+[2]: https://mohamedkamal77.github.io/assets/image/EDA_OUT_freq.png
+[3]: https://mohamedkamal77.github.io/assets/image/vis.png
+[4]: https://mohamedkamal77.github.io/assets/image/sunflower.png
+[5]: https://mohamedkamal77.github.io/assets/image/boxplot.png
+[6]: https://mohamedkamal77.github.io/assets/image/Bias_Vs_Variance.jpg
+[7]: https://mohamedkamal77.github.io/assets/image/bias_vs_variance.png
+[8]: https://mohamedkamal77.github.io/assets/image/simple_Logistic.jpg
+[9]: https://mohamedkamal77.github.io/assets/image/FINAL_LOGISTIC.jpg
+[10]: https://mohamedkamal77.github.io/assets/image/NB.jpg
+[11]: https://mohamedkamal77.github.io/assets/image/KNN.jpg
+[12]: https://mohamedkamal77.github.io/assets/image/Kernel.jpg
