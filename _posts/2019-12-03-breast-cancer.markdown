@@ -35,7 +35,7 @@ For our society, breast cancer became a severe problem causing many deaths so  e
 
 ---
 ## Data 
-###features 
+### features 
   * ***Age*** of patient at time of operation (numerical)
   * ***year*** of operation (year-1900, numerical)
   * number of positive auxiliary ***nodes*** detected (numerical)
@@ -57,13 +57,13 @@ For our society, breast cancer became a severe problem causing many deaths so  e
 ## Features
 
 ### Age
-   *integar
-   *no misisng data
-   *no zeros
-   *49  unique values
-   *mean = 52.46
-   *sd = 12.37
-   *min = 30
+   * integar
+   * no misisng data
+   * no zeros
+   * 49  unique values
+   * mean = 52.46
+   * sd = 12.37
+   * min = 30
    * max = 12.37
 
 ---	 
