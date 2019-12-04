@@ -39,8 +39,8 @@ For our society, breast cancer became a severe problem causing many deaths so  e
   * ***Age*** of patient at time of operation (numerical)
   * ***year*** of operation (year-1900, numerical)
   * number of positive auxiliary ***nodes*** detected (numerical)
-  # output
-    * survival status (class attribute)
+###output
+  * survival status (class attribute)
 ---
 ## visualization & EDA
    we got 306 examples
@@ -56,8 +56,8 @@ For our society, breast cancer became a severe problem causing many deaths so  e
   <figcaption class="caption">Visualization</figcaption> 
 ---
 
-##features
- 1. #Age
+##Features
+###Age
    *integar
    *no misisng data
    *no zeros
@@ -68,7 +68,7 @@ For our society, breast cancer became a severe problem causing many deaths so  e
    * max = 12.37
 
 ---	 
- 2. #Nodes
+###Nodes
    * integar
    * no misisng data
    * 136 zeros - p_zeros= 44.44
@@ -78,7 +78,7 @@ For our society, breast cancer became a severe problem causing many deaths so  e
    * min = 0
    * max = 52
 ---
- 3. #Year
+###Year
    * integar
    * no misisng data
    * no zeros
@@ -88,7 +88,7 @@ For our society, breast cancer became a severe problem causing many deaths so  e
    * min = 58
    * max = 69
 ---	 
-### output class
+###output class
    * 2 classes
    * 0 represent who survived 5 years after the operation (225 example)
    * 1 represent who died in 5 years after the operation (81 examples)
@@ -129,7 +129,7 @@ we are going to use 5 models:
     1. accuarcy =
     2. sensitivity =
 	3. specifity =  
-	4. F =
+	4. f =
 ---		 
    *Polynomial_featured model
     ![Markdowm Image][9]
@@ -137,7 +137,7 @@ we are going to use 5 models:
     1. accuarcy =
     2. sensitivity =
     3. specifity = 
-	4. F =
+	4. f =
 ---		 
  2. ###Naive Bayes
     ![Markdowm Image][10]
@@ -145,7 +145,7 @@ we are going to use 5 models:
     1. accuarcy =
     2. sensitivity =
 	3. specifity = 
-	4. F =
+	4. f =
 ---		 
  3. ###Knn
     ![Markdowm Image][11]
@@ -153,7 +153,7 @@ we are going to use 5 models:
 	1. accuarcy =
     2. sensitivity =
 	3. specifity = 
-	4. F =
+	4. f =
 ---		 
  4. ### Kernel SVM
     ![Markdowm Image][12]
@@ -161,7 +161,7 @@ we are going to use 5 models:
 	1. accuarcy =
     2. sensitivity =
 	3. specifity = 
-	4. F =
+	4. f =
 	
 ---		 
 ## summary
