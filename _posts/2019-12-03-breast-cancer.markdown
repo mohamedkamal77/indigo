@@ -60,42 +60,44 @@ For our society, breast cancer became a severe problem causing many deaths so  e
   ![Markdowm Image][5]
   <figcaption class="caption">Visualization</figcaption> 
 ---
-###features
-   1. #Age
-     * integar
-     * no misisng data
-	 * no zeros
-	 * 49  unique values
-	 * mean = 52.46
-	 * sd = 12.37
-	 * min = 30
-	 * max = 12.37
+
+##features
+ 1. #Age
+   *integar
+   *no misisng data
+   *no zeros
+   *49  unique values
+   *mean = 52.46
+   *sd = 12.37
+   *min = 30
+   * max = 12.37
+
 ---	 
-   2. #Nodes
-     * integar
-     * no misisng data
-	 * 136 zeros - p_zeros= 44.44
-	 * 31 unique values
-	 * mean = 4.026
-	 * sd = 6.03
-	 * min = 0
-	 * max = 52
+ 2. #Nodes
+   * integar
+   * no misisng data
+   * 136 zeros - p_zeros= 44.44
+   * 31 unique values
+   * mean = 4.026
+   * sd = 6.03
+   * min = 0
+   * max = 52
 ---
-   3. #Year
-     * integar
-     * no misisng data
-	 * no zeros
-	 * 12 unique values
-	 * mean = 62.85
-	 * sd = 3.738
-	 * min = 58
-	 * max = 69
+ 3. #Year
+   * integar
+   * no misisng data
+   * no zeros
+   * 12 unique values
+   * mean = 62.85
+   * sd = 3.738
+   * min = 58
+   * max = 69
 ---	 
 ### output class
-     * 2 classes
-	 * 0 represent who survived 5 years after the operation (225 example)
-	 * 1 represent who died in 5 years after the operation (81 examples)
-	 * unbalanced
+   * 2 classes
+   * 0 represent who survived 5 years after the operation (225 example)
+   * 1 represent who died in 5 years after the operation (81 examples)
+   * unbalanced
 	 
 	 
 ---
@@ -125,55 +127,52 @@ we are going to use 5 models:
 ---
 
 ##Models
-    ###Logistic Regression
-      * simple model
-      ![Markdowm Image][8]
-	  <figcaption class="caption">Visualization</figcaption>
-         1. accuarcy =
-         2. sensitivity =
-	     3. specifity = 
-	     4. F =
+ 1. ###Logistic Regression
+  * simple model
+    ![Markdowm Image][8]
+	<figcaption class="caption">Visualization</figcaption>
+    1. accuarcy =
+    2. sensitivity =
+	3. specifity =  
+	4. F =
 ---		 
-      *Polynomial_featured model
-      ![Markdowm Image][9]
-	  <figcaption class="caption">Visualization</figcaption>
-         1. accuarcy =
-         2. sensitivity =
-	     3. specifity = 
-	     4. F =
+   *Polynomial_featured model
+    ![Markdowm Image][9]
+	<figcaption class="caption">Visualization</figcaption>
+    1. accuarcy =
+    2. sensitivity =
+    3. specifity = 
+	4. F =
 ---		 
-    ###Naive Bayes
-      ![Markdowm Image][10]
-	  <figcaption class="caption">Visualization</figcaption>
-		 1. accuarcy =
-         2. sensitivity =
-	     3. specifity = 
-	     4. F =
+ 2. ###Naive Bayes
+    ![Markdowm Image][10]
+    <figcaption class="caption">Visualization</figcaption>
+    1. accuarcy =
+    2. sensitivity =
+	3. specifity = 
+	4. F =
 ---		 
  3. ###Knn
-      ![Markdowm Image][11]
-	  <figcaption class="caption">Visualization</figcaption>
-	     1. accuarcy =
-         2. sensitivity =
-	     3. specifity = 
-	     4. F =
+    ![Markdowm Image][11]
+	<figcaption class="caption">Visualization</figcaption>
+	1. accuarcy =
+    2. sensitivity =
+	3. specifity = 
+	4. F =
 ---		 
  4. ### Kernel SVM
-      ![Markdowm Image][12]
-	  <figcaption class="caption">Visualization</figcaption>
-	     1. accuarcy =
-         2. sensitivity =
-	     3. specifity = 
-	     4. F =
+    ![Markdowm Image][12]
+    <figcaption class="caption">Visualization</figcaption>
+	1. accuarcy =
+    2. sensitivity =
+	3. specifity = 
+	4. F =
 ---		 
 ## summary
 
 A horizontal rule is a line that goes across the middle of the page.
 It's sometimes handy for breaking things up.
 
-{% highlight raw %}
----
-{% endhighlight %}
 
 ---
 
@@ -181,15 +180,15 @@ It's sometimes handy for breaking things up.
 
 
 
-[1]: https://mohamedkamal77.github.io/assets/image/EDA_FREQ.png
-[2]: https://mohamedkamal77.github.io/assets/image/EDA_OUT_freq.png
-[3]: https://mohamedkamal77.github.io/assets/image/vis.png
-[4]: https://mohamedkamal77.github.io/assets/image/sunflower.png
-[5]: https://mohamedkamal77.github.io/assets/image/boxplot.png
-[6]: https://mohamedkamal77.github.io/assets/image/Bias_Vs_Variance.jpg
-[7]: https://mohamedkamal77.github.io/assets/image/bias_vs_variance.png
-[8]: https://mohamedkamal77.github.io/assets/image/simple_Logistic.jpg
-[9]: https://mohamedkamal77.github.io/assets/image/FINAL_LOGISTIC.jpg
-[10]: https://mohamedkamal77.github.io/assets/image/NB.jpg
-[11]: https://mohamedkamal77.github.io/assets/image/KNN.jpg
-[12]: https://mohamedkamal77.github.io/assets/image/Kernel.jpg
+[1]: https://mohamedkamal77.github.io/assets/images/EDA_FREQ.png
+[2]: https://mohamedkamal77.github.io/assets/images/EDA_OUT_freq.png
+[3]: https://mohamedkamal77.github.io/assets/images/vis.png
+[4]: https://mohamedkamal77.github.io/assets/images/sunflower.png
+[5]: https://mohamedkamal77.github.io/assets/images/boxplot.png
+[6]: https://mohamedkamal77.github.io/assets/images/Bias_Vs_Variance.jpg
+[7]: https://mohamedkamal77.github.io/assets/images/bias_vs_variance.png
+[8]: https://mohamedkamal77.github.io/assets/images/simple_Logistic.jpg
+[9]: https://mohamedkamal77.github.io/assets/images/FINAL_LOGISTIC.jpg
+[10]: https://mohamedkamal77.github.io/assets/images/NB.jpg
+[11]: https://mohamedkamal77.github.io/assets/images/KNN.jpg
+[12]: https://mohamedkamal77.github.io/assets/images/Kernel.jpg
