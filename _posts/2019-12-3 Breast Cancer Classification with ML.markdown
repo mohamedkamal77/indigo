@@ -1,5 +1,5 @@
 ---
-title: "Breast Cancer Classification with ML
+title: "Breast Cancer Classification with ML"
 layout: post
 date: 2019-12-3 15:44
 image: /assets/images/markdown.jpg
