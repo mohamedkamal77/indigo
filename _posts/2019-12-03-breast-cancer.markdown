@@ -16,11 +16,11 @@ description: Markdown summary with different options
 ## Introduction
 
 I studied a biostatistics course during my third year in the college,
- including the **probabilitiy** concept and I had to apply what I studied;
+ including the **probabilitiy** concept and I had to apply what I studied,
  so we had to choose a topic and represent a **Machine Learning** model.
- That was my first experience with ML, I and my team had to read about 
+ That was our first experience with ML, I and my team had to read about 
  different ML algorithms to apply it on our set of data.
- I found later that ML track is very interisting and I enjoyed this experience very much.
+ I found later that ML track is very interesting and I enjoyed this experience very much.
 
 
 ---
@@ -109,7 +109,7 @@ For our society, breast cancer became a severe problem causing many deaths so  e
 ---
 
 ## Preprocessing
- * Corrilation matrix
+ * Correlation matrix
 ![Markdowm Image][6]
  <figcaption class="caption">Visualization</figcaption>
  We notice that feature of year of operation has zero correlation with our output class and high P_value
@@ -215,10 +215,10 @@ After many analysis and processing, we found that our data is biased. We found t
     ![Markdowm Image][13]
 	<figcaption class="caption">Visualization</figcaption>
 	
-    1. accuracy = 0.754
-    2. sensitivity = 0.368
-	3. specifity = .554
-	4. f = 0.442
+    1. Accuracy = 0.754
+    2. Sensitivity = 0.368
+	3. Specifity = .554
+	4. F = 0.442
    
 ---		 
 
