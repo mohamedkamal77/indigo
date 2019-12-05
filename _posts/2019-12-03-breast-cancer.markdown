@@ -125,43 +125,52 @@ we are going to use 5 models:
   * simple model
     ![Markdowm Image][8]
 	<figcaption class="caption">Visualization</figcaption>
-    1. accuarcy =
-    2. sensitivity =
-	3. specifity =  
-	4. f =
+    1. accuarcy = 0.748
+    2. sensitivity = 0.234
+	3. specifity = 0.6
+	4. f = 0.336
 ---		 
    *Polynomial_featured model
     ![Markdowm Image][9]
 	<figcaption class="caption">Visualization</figcaption>
-    1. accuarcy =
-    2. sensitivity =
-    3. specifity = 
-	4. f =
+    1. accuarcy = 0.758
+    2. sensitivity = 0.26
+    3. specifity = 0.63
+	4. f = 0.3672
 ---		 
  2. ### Naive Bayes
     ![Markdowm Image][10]
     <figcaption class="caption">Visualization</figcaption>
-    1. accuarcy =
-    2. sensitivity =
-	3. specifity = 
-	4. f =
+    1. accuarcy = 0.745
+    2. sensitivity = 0.1986
+	3. specifity = 0.576
+	4. f = 0.295
 ---		 
  3. ### Knn
+    #### K = 9
     ![Markdowm Image][11]
 	<figcaption class="caption">Visualization</figcaption>
-	1. accuarcy =
-    2. sensitivity =
-	3. specifity = 
-	4. f =
+	1. accuarcy = 0.795
+    2. sensitivity = 0.33
+	3. specifity = 0.8
+	4. f =0.47
+	 
 ---		 
  4. ### Kernel SVM
     ![Markdowm Image][12]
     <figcaption class="caption">Visualization</figcaption>
-	1. accuarcy =
-    2. sensitivity =
-	3. specifity = 
-	4. f =
-	
+	1. accuarcy = 0.75
+    2. sensitivity = 0.26
+	3. specifity = .53
+	4. f = 0.35
+---
+ 5. ### Decision Tree
+    ![Markdowm Image][13]
+    1. accuarcy = 0.754
+    2. sensitivity = 0.368
+	3. specifity = .554
+	4. f = 0.442
+   
 ---		 
 ## summary
 
@@ -187,3 +196,4 @@ It's sometimes handy for breaking things up.
 [10]: https://mohamedkamal77.github.io/assets/images/NB.jpg
 [11]: https://mohamedkamal77.github.io/assets/images/KNN.jpg
 [12]: https://mohamedkamal77.github.io/assets/images/KERNEL.jpg
+[13]: https://mohamedkamal77.github.io/assets/images/Decision_Tree.jpg
