@@ -100,7 +100,7 @@ For our society, breast cancer became a severe problem causing many deaths so  e
  *corrilation matrix
 ![Markdowm Image][6]
  <figcaption class="caption">Visualization</figcaption>
-#### we notice that feature of year of operation has zero correlation with our output class and high P_value
+ we notice that feature of year of operation has zero correlation with our output class and high P_value
  *Bias Vs Variance
 ![Markdowm Image][7]
   <figcaption class="caption">Visualization</figcaption>
@@ -121,7 +121,7 @@ we are going to use 5 models:
 ---
 
 ## Models
- 1. ### Logistic Regression
+ 1.  ### Logistic Regression
   * simple model
     ![Markdowm Image][8]
 	<figcaption class="caption">Visualization</figcaption>
@@ -129,6 +129,7 @@ we are going to use 5 models:
     2. sensitivity = 0.234
 	3. specifity = 0.6
 	4. f = 0.336
+	
 ---		 
    *Polynomial_featured model
     ![Markdowm Image][9]
@@ -137,6 +138,8 @@ we are going to use 5 models:
     2. sensitivity = 0.26
     3. specifity = 0.63
 	4. f = 0.3672
+	
+	After many analysis and processing, we found that our data is biased. We found that logistics regression is the most method that suffered from this problem. As we showed above, we found if we added polynomial features, the accuracy would be increased.  
 ---		 
  2. ### Naive Bayes
     ![Markdowm Image][10]
@@ -145,6 +148,8 @@ we are going to use 5 models:
     2. sensitivity = 0.1986
 	3. specifity = 0.576
 	4. f = 0.295
+	
+	It employs a very simple hypothesis function. It suffers from high bias, resulting from inaccuracies in its hypothesis class, because its hypothesis function is so simple. It cannot accurately represent many complex situations.
 ---		 
  3. ### Knn
     #### K = 9
@@ -154,7 +159,8 @@ we are going to use 5 models:
     2. sensitivity = 0.33
 	3. specifity = 0.8
 	4. f =0.47
-	 
+ 
+	We found it is the best model. As it's the highest in sensitivity and accuracy.
 ---		 
  4. ### Kernel SVM
     ![Markdowm Image][12]
@@ -163,6 +169,7 @@ we are going to use 5 models:
     2. sensitivity = 0.26
 	3. specifity = .53
 	4. f = 0.35
+	
 ---
  5. ### Decision Tree
     ![Markdowm Image][13]
@@ -173,9 +180,8 @@ we are going to use 5 models:
    
 ---		 
 ## summary
-
-A horizontal rule is a line that goes across the middle of the page.
-It's sometimes handy for breaking things up.
+ 
+	After a lot of analysis and processing, We discovered that the feature "nodes" is the most significant one. And the feature "year of operation" has no observable effect. We were facing a challenge which was a case of life or death. Cataloguing of Haberman’s survival information was beneﬁcial to realize the patients’ survival probability after a breast cancer surgery. We depended on a collected dataset from a standard benchmark UCI machine learning repository. We were trying to get through data imputation, categorical datatype, data processing and exploratory data analysis using different methodologies to detect the performance evaluation of classiﬁers and to compare between them to find the most suitable one.
 
 
 ---
