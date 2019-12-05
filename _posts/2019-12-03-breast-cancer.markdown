@@ -116,7 +116,7 @@ For our society, breast cancer became a severe problem causing many deaths so  e
  * Learning curve
 ![Markdowm Image][7]
   <figcaption class="caption">Visualization</figcaption>
-  **We notice that we have high bias as adding more examples will not improve our model
+  **We notice that we have high bias as adding more examples will not improve our model**
  * High bias no normalization
  * No imputation ; no missing data
  * Feature scaling : We are going to use standarization  
@@ -243,8 +243,8 @@ After a lot of analysis and processing, We discovered that the feature "nodes" i
 [3]: https://mohamedkamal77.github.io/assets/images/vis.png
 [4]: https://mohamedkamal77.github.io/assets/images/sunflower.png
 [5]: https://mohamedkamal77.github.io/assets/images/boxplot.png
-[6]: https://mohamedkamal77.github.io/assets/images/Bias_Vs_Variance.jpg
-[7]: https://mohamedkamal77.github.io/assets/images/bias_vs_variance.png
+[6]: https://mohamedkamal77.github.io/assets/images/correlation_matrix.jpg
+[7]: https://mohamedkamal77.github.io/assets/images/bias_variance.png
 [8]: https://mohamedkamal77.github.io/assets/images/simple_Logistic.jpg
 [9]: https://mohamedkamal77.github.io/assets/images/FINAL_LOGISTIC.jpg
 [10]: https://mohamedkamal77.github.io/assets/images/NB.jpg
