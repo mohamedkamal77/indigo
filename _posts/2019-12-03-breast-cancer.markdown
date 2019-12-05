@@ -15,28 +15,28 @@ description: Markdown summary with different options
 
 ## Introduction
 
-I studied a biostatistics course within my third year in the college,
- including the **probabilitiy** concept and I have to apply what I studied;
+I studied a biostatistics course during my third year in the college,
+ including the **probabilitiy** concept and I had to apply what I studied;
  so we had to choose a topic and represent a **Machine Learning** model.
- That was my first experience with ML, I and my team have to read about 
+ That was my first experience with ML, I and my team had to read about 
  different ML algorithms to apply it on our set of data.
- I found later that ML track is very interisting I enjoyed this experience alot.
+ I found later that ML track is very interisting and I enjoyed this experience very much.
 
 
 ---
 
 ## Purpose
 
-For our society, breast cancer became a severe problem causing many deaths so  expecting the survival status of patients who will undertake breast cancer surgery is highly vital,
+For our society, breast cancer became a severe problem causing many deaths so  expecting the survival status of patients who would undertake breast cancer surgery is highly vital,
  as it speciﬁes whether conducting a surgery is the best solution for the patient or not. 
- To achieve an acurate prediction , we have to do alot of work in our data to represent the best model,
+ To achieve an acurate prediction , we had to do alot of work in our data to represent the best model,
  We would like to explain the various data analysis operation that we would do on this data set and how to conclude or predict 
  survival status of patients who undergone this surgery.
 
 ---
 ## Data 
 ### features 
-  * ***Age*** of patient at time of operation (numerical)
+  * ***Age*** of patient at the time of operation (numerical)
   * ***year*** of operation (year-1900, numerical)
   * number of positive auxiliary ***nodes*** detected (numerical)
   * survival status ***class*** attribute
@@ -57,35 +57,44 @@ For our society, breast cancer became a severe problem causing many deaths so  e
 ## Features
 
 ### Age
-   * integar
-   * no misisng data
-   * no zeros
+   * Integer
+   * No misisng data
+   * No zeros
    * 49  unique values
-   * mean = 52.46
-   * sd = 12.37
-   * min = 30
-   * max = 12.37
+   * Mean = 52.46
+   * Sd = 12.37
+   * Min = 30
+   * Max = 12.37
+   * Quarter = 44
+   * Half = 52
+   * 3_Quarters = 61
 
 ---	 
 ### Nodes
-   * integar
-   * no misisng data
+   * Integer
+   * No misisng data
    * 136 zeros - p_zeros= 44.44
    * 31 unique values
-   * mean = 4.026
-   * sd = 6.03
-   * min = 0
-   * max = 52
+   * Mean = 4.026
+   * Sd = 6.03
+   * Min = 0
+   * Max = 52
+   * Quarter = 0
+   * Half = 1
+   * 3_Quarters = 4
 ---
 ### Year
-   * integar
-   * no misisng data
-   * no zeros
+   * Integer
+   * No misisng data
+   * No zeros
    * 12 unique values
-   * mean = 62.85
-   * sd = 3.738
-   * min = 58
-   * max = 69
+   * Mean = 62.85
+   * Sd = 3.738
+   * Min = 58
+   * Max = 69
+   * Quarter = 60
+   * Half = 63
+   * 3_Quarters = 66
 ---	 
 ### output class
    * 2 classes
@@ -110,7 +119,7 @@ For our society, breast cancer became a severe problem causing many deaths so  e
 
 ---
 ## Methodology
-we are going to use 5 models:
+We are going to use 5 models:
 1. Logistic regression
 2. Knn
 3. Naive Bayes
@@ -128,10 +137,10 @@ we are going to use 5 models:
     ![Markdowm Image][8]
 	
 	<figcaption class="caption">Visualization</figcaption>
-    1. accuarcy = 0.748
-    2. sensitivity = 0.234
-	3. specifity = 0.6
-	4. f = 0.336
+    1. Accuracy = 0.748
+    2. Sensitivity = 0.234
+	3. Specifity = 0.6
+	4. F = 0.336
 
 	
 ---
@@ -143,10 +152,10 @@ we are going to use 5 models:
 ![Markdowm Image][9]
 
 <figcaption class="caption">Visualization</figcaption>
-1. accuarcy = 0.758
-2. sensitivity = 0.26
-3. specifity = 0.63
-4. f = 0.3672
+1. Accuracy = 0.758
+2. Sensitivity = 0.26
+3. Specifity = 0.63
+4. F = 0.3672
 	
 	
 After many analysis and processing, we found that our data is biased. We found that logistics regression is the most method that suffered from this problem. As we showed above, we found if we added polynomial features, the accuracy would be increased.  
@@ -158,10 +167,10 @@ After many analysis and processing, we found that our data is biased. We found t
     ![Markdowm Image][10]
 	
     <figcaption class="caption">Visualization</figcaption>
-    1. accuarcy = 0.745
-    2. sensitivity = 0.1986
-	3. specifity = 0.576
-	4. f = 0.295
+    1. Accuracy = 0.745
+    2. Sensitivity = 0.1986
+	3. Specifity = 0.576
+	4. F = 0.295
 	
 	It employs a very simple hypothesis function. It suffers from high bias, resulting from inaccuracies in its hypothesis class, because its hypothesis function is so simple. It cannot accurately represent many complex situations.
 
@@ -174,10 +183,10 @@ After many analysis and processing, we found that our data is biased. We found t
     ![Markdowm Image][11]
 
 	<figcaption class="caption">Visualization</figcaption>
-	1. accuarcy = 0.795
-    2. sensitivity = 0.33
-	3. specifity = 0.8
-	4. f =0.47
+	1. Accuracy = 0.795
+    2. Sensitivity = 0.33
+	3. Specifity = 0.8
+	4. F =0.47
  
 	We found it is the best model. As it's the highest in sensitivity and accuracy.
 
@@ -189,10 +198,10 @@ After many analysis and processing, we found that our data is biased. We found t
 
     <figcaption class="caption">Visualization</figcaption>
 	
-	1. accuarcy = 0.75
-    2. sensitivity = 0.26
-	3. specifity = .53
-	4. f = 0.35
+	1. Accuracy = 0.75
+    2. Sensitivity = 0.26
+	3. Specifity = .53
+	4. F = 0.35
 	
 
 ---
@@ -202,7 +211,7 @@ After many analysis and processing, we found that our data is biased. We found t
     ![Markdowm Image][13]
 	<figcaption class="caption">Visualization</figcaption>
 	
-    1. accuarcy = 0.754
+    1. accuracy = 0.754
     2. sensitivity = 0.368
 	3. specifity = .554
 	4. f = 0.442
