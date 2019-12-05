@@ -42,7 +42,7 @@ For our society, breast cancer became a severe problem causing many deaths so  e
   * survival status ***class*** attribute
   
 ---
-## visualization & EDA
+## Visualization & EDA
   ![Markdowm Image][3]
   <figcaption class="caption">Visualization</figcaption>
   ![Markdowm Image][1]
