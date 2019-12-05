@@ -5,11 +5,11 @@ date: 2019-12-3 15:44
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
-- markdown
-- elements
+- R
+- Cancer
 star: true
 category: blog
-author: johndoe
+author: Mohammed Kammal
 description: Markdown summary with different options
 ---
 
@@ -120,28 +120,43 @@ we are going to use 5 models:
 ---
 
 ## Models
+
 1. ### Logistic Regression
+
   * simple model
+  
     ![Markdowm Image][8]
+	
 	<figcaption class="caption">Visualization</figcaption>
     1. accuarcy = 0.748
     2. sensitivity = 0.234
 	3. specifity = 0.6
 	4. f = 0.336
+
 	
----		 
-   *Polynomial_featured model
-    ![Markdowm Image][9]
-	<figcaption class="caption">Visualization</figcaption>
-    1. accuarcy = 0.758
-    2. sensitivity = 0.26
-    3. specifity = 0.63
-	4. f = 0.3672
+---
+
+ 
+*Polynomial_featured model
+
+
+![Markdowm Image][9]
+
+<figcaption class="caption">Visualization</figcaption>
+1. accuarcy = 0.758
+2. sensitivity = 0.26
+3. specifity = 0.63
+4. f = 0.3672
 	
-	After many analysis and processing, we found that our data is biased. We found that logistics regression is the most method that suffered from this problem. As we showed above, we found if we added polynomial features, the accuracy would be increased.  
+	
+After many analysis and processing, we found that our data is biased. We found that logistics regression is the most method that suffered from this problem. As we showed above, we found if we added polynomial features, the accuracy would be increased.  
+
 ---		 
+
  2. ### Naive Bayes
+ 
     ![Markdowm Image][10]
+	
     <figcaption class="caption">Visualization</figcaption>
     1. accuarcy = 0.745
     2. sensitivity = 0.1986
@@ -149,10 +164,15 @@ we are going to use 5 models:
 	4. f = 0.295
 	
 	It employs a very simple hypothesis function. It suffers from high bias, resulting from inaccuracies in its hypothesis class, because its hypothesis function is so simple. It cannot accurately represent many complex situations.
+
 ---		 
+
  3. ### Knn
+
     #### K = 9
+
     ![Markdowm Image][11]
+
 	<figcaption class="caption">Visualization</figcaption>
 	1. accuarcy = 0.795
     2. sensitivity = 0.33
@@ -160,27 +180,39 @@ we are going to use 5 models:
 	4. f =0.47
  
 	We found it is the best model. As it's the highest in sensitivity and accuracy.
+
 ---		 
+
  4. ### Kernel SVM
+
     ![Markdowm Image][12]
+
     <figcaption class="caption">Visualization</figcaption>
+	
 	1. accuarcy = 0.75
     2. sensitivity = 0.26
 	3. specifity = .53
 	4. f = 0.35
 	
+
 ---
+
  5. ### Decision Tree
+
     ![Markdowm Image][13]
+	<figcaption class="caption">Visualization</figcaption>
+	
     1. accuarcy = 0.754
     2. sensitivity = 0.368
 	3. specifity = .554
 	4. f = 0.442
    
 ---		 
-## summary
+
+## Summary
  
-	After a lot of analysis and processing, We discovered that the feature "nodes" is the most significant one. And the feature "year of operation" has no observable effect. We were facing a challenge which was a case of life or death. Cataloguing of Haberman’s survival information was beneﬁcial to realize the patients’ survival probability after a breast cancer surgery. We depended on a collected dataset from a standard benchmark UCI machine learning repository. We were trying to get through data imputation, categorical datatype, data processing and exploratory data analysis using different methodologies to detect the performance evaluation of classiﬁers and to compare between them to find the most suitable one.
+
+After a lot of analysis and processing, We discovered that the feature "nodes" is the most significant one. And the feature "year of operation" has no observable effect. We were facing a challenge which was a case of life or death. Cataloguing of Haberman’s survival information was beneﬁcial to realize the patients’ survival probability after a breast cancer surgery. We depended on a collected dataset from a standard benchmark UCI machine learning repository. We were trying to get through data imputation, categorical datatype, data processing and exploratory data analysis using different methodologies to detect the performance evaluation of classiﬁers and to compare between them to find the most suitable one.
 
 
 ---
