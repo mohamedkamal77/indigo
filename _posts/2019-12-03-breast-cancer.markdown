@@ -112,10 +112,11 @@ For our society, breast cancer became a severe problem causing many deaths so  e
  * Correlation matrix
 ![Markdowm Image][6]
  <figcaption class="caption">Visualization</figcaption>
- We notice that feature of year of operation has zero correlation with our output class and high P_value
- * Bias Vs Variance
+ **We notice that feature of year of operation has zero correlation with our output class and high P_value**
+ * Learning curve
 ![Markdowm Image][7]
   <figcaption class="caption">Visualization</figcaption>
+  **We notice that we have high bias as adding more examples will not improve our model
  * High bias no normalization
  * No imputation ; no missing data
  * Feature scaling : We are going to use standarization  
@@ -133,6 +134,9 @@ We are going to use 5 models:
 ---
 
 ## Models
+
+**To evaluate our models we used 10 fold-cross validation**
+**and took mean of accuarcy ,sensetivity and specifity of our ten folds**
 
 1. ### Logistic Regression
 
