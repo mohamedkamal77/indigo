@@ -92,8 +92,7 @@ For our society, breast cancer became a severe problem causing many deaths so  e
    * 0 represent who survived 5 years after the operation (225 example)
    * 1 represent who died in 5 years after the operation (81 examples)
    * unbalanced
-	 
-	 
+	
 ---
 
 ## Preprocessing
@@ -121,7 +120,7 @@ we are going to use 5 models:
 ---
 
 ## Models
- 1.  ### Logistic Regression
+1. ### Logistic Regression
   * simple model
     ![Markdowm Image][8]
 	<figcaption class="caption">Visualization</figcaption>
