@@ -97,7 +97,9 @@ For our society, breast cancer became a severe problem causing many deaths so  e
    * Quarter = 60
    * Half = 63
    * 3_Quarters = 66
----	 
+   
+---	
+ 
 ### output class
    * 2 classes
    * 0 represent who survived 5 years after the operation (225 example)
@@ -107,17 +109,17 @@ For our society, breast cancer became a severe problem causing many deaths so  e
 ---
 
 ## Preprocessing
- *corrilation matrix
+ * Corrilation matrix
 ![Markdowm Image][6]
  <figcaption class="caption">Visualization</figcaption>
- we notice that feature of year of operation has zero correlation with our output class and high P_value
- *Bias Vs Variance
+ We notice that feature of year of operation has zero correlation with our output class and high P_value
+ * Bias Vs Variance
 ![Markdowm Image][7]
   <figcaption class="caption">Visualization</figcaption>
- *High bias no normalization
- *No imputation ; no missing data
- *feature scaling : We are going to use standarization  
- *feature selecting : year feature does not have high impact so we will not use it
+ * High bias no normalization
+ * No imputation ; no missing data
+ * Feature scaling : We are going to use standarization  
+ * Feature selecting : year feature does not have high impact so we will not use it
 
 ---
 ## Methodology
@@ -134,7 +136,7 @@ We are going to use 5 models:
 
 1. ### Logistic Regression
 
-  * simple model
+  * Simple model
   
     ![Markdowm Image][8]
 	
