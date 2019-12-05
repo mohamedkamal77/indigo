@@ -121,7 +121,7 @@ we are going to use 5 models:
 
 ## Models
 
- ### Logistic Regression
+1. ### Logistic Regression
 
   * simple model
   
@@ -153,7 +153,7 @@ After many analysis and processing, we found that our data is biased. We found t
 
 ---		 
 
- ### Naive Bayes
+ 2. ### Naive Bayes
  
     ![Markdowm Image][10]
 	
@@ -167,7 +167,7 @@ After many analysis and processing, we found that our data is biased. We found t
 
 ---		 
 
- ### Knn
+ 3. ### Knn
 
     #### K = 9
 
@@ -183,7 +183,7 @@ After many analysis and processing, we found that our data is biased. We found t
 
 ---		 
 
- ### Kernel SVM
+ 4. ### Kernel SVM
 
     ![Markdowm Image][12]
 
@@ -197,7 +197,7 @@ After many analysis and processing, we found that our data is biased. We found t
 
 ---
 
- ### Decision Tree
+ 5. ### Decision Tree
 
     ![Markdowm Image][13]
 	<figcaption class="caption">Visualization</figcaption>
