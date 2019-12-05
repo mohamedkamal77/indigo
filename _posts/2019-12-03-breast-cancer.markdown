@@ -35,11 +35,12 @@ For our society, breast cancer became a severe problem causing many deaths so  e
 
 ---
 ## Data 
-### features 
+### Features 
   * ***Age*** of patient at the time of operation (numerical)
   * ***year*** of operation (year-1900, numerical)
   * number of positive auxiliary ***nodes*** detected (numerical)
   * survival status ***class*** attribute
+  
 ---
 ## visualization & EDA
   ![Markdowm Image][3]
@@ -82,6 +83,7 @@ For our society, breast cancer became a severe problem causing many deaths so  e
    * Quarter = 0
    * Half = 1
    * 3_Quarters = 4
+   
 ---
 ### Year
    * Integer
